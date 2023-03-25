@@ -1,0 +1,16 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+django-heroku = "*"
+psycopg2 = "==2.9.5"
+validate-email = "*"
+six = "*"
+django = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.11"
